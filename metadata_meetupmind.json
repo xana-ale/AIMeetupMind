@@ -1,0 +1,93 @@
+[
+    {
+        "id": 0,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Adrian",
+        "text": "\"Hello everyone! Welcome to the June AI Meetup! It's so nice to see familiar faces and lots of new ones as well. We have three amazing speakers today who will guide us through some really hot topics in AI.\nFirst, let\u2019s dive into the world of LLM Alignment.\""
+    },
+    {
+        "id": 1,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Mihai",
+        "text": "\"Thanks, Adrian. Hello everyone. Today I\u2019ll talk about one of the hottest problems in AI \u2014 LLM Alignment.\nWhat is alignment? In simple terms, it's the effort to make AI systems behave in a way that aligns with human values and intentions.\n\nWhy is this hard?\nLet me give you an example. Suppose you ask an AI for job recommendations. If the training data is biased against certain genders or ethnic groups, the AI might reproduce that bias. We've seen this happen \u2014 AI recommending lower-paying jobs to women, for instance.\n\nAnother example is in financial services \u2014 models might deny credit to certain populations because of historic bias in the data.\n\nAnd this isn't just a static problem \u2014 it\u2019s a snowball effect. If users start trusting AI-generated outputs, those outputs get recycled into future training data. This amplifies existing biases over time.\n\nSo what can be done? A few methods are in play:\n\n    Reinforcement Learning with Human Feedback (RLHF) \u2014 basically teaching the AI what is desirable or not.\n\n    Bias audits and dataset cleaning.\n\n    Differential privacy to prevent amplifying bad patterns.\n\nBut honestly \u2014 this is far from solved. Even OpenAI, Anthropic, DeepMind \u2014 they're struggling with this every day.\""
+    },
+    {
+        "id": 2,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Ana",
+        "text": "\"So... does this mean AI will eventually decide who gets rich and who doesn\u2019t? Should we be worried about that?\""
+    },
+    {
+        "id": 3,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Mihai",
+        "text": "\"Great question... And yeah, partially, that\u2019s why we care so much about alignment!\nBut no \u2014 we\u2019re not at the Skynet level yet... unless Skynet comes with a customer service chatbot.\" \ud83d\ude04"
+    },
+    {
+        "id": 4,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "George",
+        "text": "\"What about cultural biases? Like, what\u2019s polite in Japan might be rude in Germany. How do you align AI with multiple cultures?\""
+    },
+    {
+        "id": 5,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Mihai",
+        "text": "\"Excellent point. That\u2019s one of the hardest parts. We don\u2019t have a single 'human value' \u2014 we have many, depending on the context.\nOne direction is to train models that adapt based on location, culture, or user settings... but we\u2019re just scratching the surface.\""
+    },
+    {
+        "id": 6,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Adrian",
+        "text": "\"Thank you, Mihai! That was awesome. Our next speaker is Ioana, who will talk about Multi-Agent Systems and AI Agents.\""
+    },
+    {
+        "id": 7,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Ioana",
+        "text": "\"Thanks, Adrian! Hi everyone. You\u2019ve probably heard about LLMs \u2014 but what about AI Agents?\n\nThese are LLMs connected with tools, APIs, memory systems... capable of reasoning step by step, executing tasks, and even collaborating with other agents.\n\nAgent orchestration is one of the hottest topics in 2025.\nImagine an agent who reads your emails, updates your Jira board, sends reports, and even books your dentist appointment.\n\nThe challenge? Tool usage, reasoning failures, hallucinations, and cost.\nHow do you balance running 50 agents without spending your entire salary on API calls?\n\nAlso, agents aren't truly 'intelligent' \u2014 they simulate reasoning based on patterns learned from language. It\u2019s cool but limited.\nFor example, they can plan, but they can\u2019t really understand why they're doing it.\""
+    },
+    {
+        "id": 8,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Dan",
+        "text": "\"So... basically like interns but faster and cheaper?\" \ud83d\ude06"
+    },
+    {
+        "id": 9,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Ioana",
+        "text": "\"Exactly! But just like interns, sometimes they bring coffee... and sometimes they accidentally delete the whole database.\" \u2615\ud83d\udd25"
+    },
+    {
+        "id": 10,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Adrian",
+        "text": "\"Thank you, Ioana!\nAnd now, for our last speaker, Radu, who will discuss Efficient Fine-Tuning of LLMs.\""
+    },
+    {
+        "id": 11,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Radu",
+        "text": "\"Hello everyone! I\u2019ll make this quick and actionable.\nFine-tuning LLMs is expensive. But with techniques like LoRA (Low-Rank Adaptation) or QLoRA, you can fine-tune massive models on a laptop.\n\nThis allows companies to create custom AI models for their specific data \u2014 for example, medical reports, legal documents, or customer service transcripts.\n\nThe trend now is toward parameter-efficient fine-tuning, mixing with RAG systems for external memory, so the models don\u2019t need to memorize everything but can fetch what they need.\""
+    },
+    {
+        "id": 12,
+        "date": "22-02-2020",
+        "meetup_name": "kMeans",
+        "speaker": "Adrian",
+        "text": "\"Thank you, Radu! That was super useful.\nAnd thank you all for attending. Let\u2019s grab a beer and keep chatting!\""
+    }
+]

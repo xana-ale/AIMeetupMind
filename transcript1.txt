@@ -1,0 +1,77 @@
+Speaker 0 (Adrian):
+"Hello everyone! Welcome to the June AI Meetup! It's so nice to see familiar faces and lots of new ones as well. We have three amazing speakers today who will guide us through some really hot topics in AI.
+First, let’s dive into the world of LLM Alignment."
+
+Speaker 1 (Mihai):
+"Thanks, Adrian. Hello everyone. Today I’ll talk about one of the hottest problems in AI — LLM Alignment.
+What is alignment? In simple terms, it's the effort to make AI systems behave in a way that aligns with human values and intentions.
+
+Why is this hard?
+Let me give you an example. Suppose you ask an AI for job recommendations. If the training data is biased against certain genders or ethnic groups, the AI might reproduce that bias. We've seen this happen — AI recommending lower-paying jobs to women, for instance.
+
+Another example is in financial services — models might deny credit to certain populations because of historic bias in the data.
+
+And this isn't just a static problem — it’s a snowball effect. If users start trusting AI-generated outputs, those outputs get recycled into future training data. This amplifies existing biases over time.
+
+So what can be done? A few methods are in play:
+
+    Reinforcement Learning with Human Feedback (RLHF) — basically teaching the AI what is desirable or not.
+
+    Bias audits and dataset cleaning.
+
+    Differential privacy to prevent amplifying bad patterns.
+
+But honestly — this is far from solved. Even OpenAI, Anthropic, DeepMind — they're struggling with this every day."
+
+Speaker 2 (Ana):
+"So... does this mean AI will eventually decide who gets rich and who doesn’t? Should we be worried about that?"
+
+Speaker 1 (Mihai):
+"Great question... And yeah, partially, that’s why we care so much about alignment!
+But no — we’re not at the Skynet level yet... unless Skynet comes with a customer service chatbot." 😄
+
+Speaker 3 (George):
+"What about cultural biases? Like, what’s polite in Japan might be rude in Germany. How do you align AI with multiple cultures?"
+
+Speaker 1 (Mihai):
+"Excellent point. That’s one of the hardest parts. We don’t have a single 'human value' — we have many, depending on the context.
+One direction is to train models that adapt based on location, culture, or user settings... but we’re just scratching the surface."
+
+Speaker 0 (Adrian):
+"Thank you, Mihai! That was awesome. Our next speaker is Ioana, who will talk about Multi-Agent Systems and AI Agents."
+
+Speaker 4 (Ioana):
+"Thanks, Adrian! Hi everyone. You’ve probably heard about LLMs — but what about AI Agents?
+
+These are LLMs connected with tools, APIs, memory systems... capable of reasoning step by step, executing tasks, and even collaborating with other agents.
+
+Agent orchestration is one of the hottest topics in 2025.
+Imagine an agent who reads your emails, updates your Jira board, sends reports, and even books your dentist appointment.
+
+The challenge? Tool usage, reasoning failures, hallucinations, and cost.
+How do you balance running 50 agents without spending your entire salary on API calls?
+
+Also, agents aren't truly 'intelligent' — they simulate reasoning based on patterns learned from language. It’s cool but limited.
+For example, they can plan, but they can’t really understand why they're doing it."
+
+Speaker 5 (Dan):
+"So... basically like interns but faster and cheaper?" 😆
+
+Speaker 4 (Ioana):
+"Exactly! But just like interns, sometimes they bring coffee... and sometimes they accidentally delete the whole database." ☕🔥
+
+Speaker 0 (Adrian):
+"Thank you, Ioana!
+And now, for our last speaker, Radu, who will discuss Efficient Fine-Tuning of LLMs."
+
+Speaker 6 (Radu):
+"Hello everyone! I’ll make this quick and actionable.
+Fine-tuning LLMs is expensive. But with techniques like LoRA (Low-Rank Adaptation) or QLoRA, you can fine-tune massive models on a laptop.
+
+This allows companies to create custom AI models for their specific data — for example, medical reports, legal documents, or customer service transcripts.
+
+The trend now is toward parameter-efficient fine-tuning, mixing with RAG systems for external memory, so the models don’t need to memorize everything but can fetch what they need."
+
+Speaker 0 (Adrian):
+"Thank you, Radu! That was super useful.
+And thank you all for attending. Let’s grab a beer and keep chatting!"

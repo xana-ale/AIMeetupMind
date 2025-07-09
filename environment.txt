@@ -1,0 +1,16 @@
+name: meetupmind
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - spyder
+  - numpy
+  - pandas
+  - matplotlib
+  - faiss-cpu
+  - pip
+  - pip:
+      - sentence-transformers
+      - ollama
+      - tkintermapview  # Optional GUI enhancements (if you ever want it)
